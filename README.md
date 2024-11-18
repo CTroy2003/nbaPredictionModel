@@ -2,7 +2,6 @@
 
 File List:
 
-nba predictor -
 1. requirements.txt (MUST INSTALL THE LIBRARIES HERE TO RUN LOCALLY)
 2. games_details.csv (training data)
 3. train_model.py (UPDATE FILE AND MODEL PATHS TO RUN LOCALLY)
@@ -28,6 +27,9 @@ feature_importance.py - Analyzes the trained model, listing each feature and its
 
 predict_games.py - This program leverages the nba_api to gather the nba games for the date the user provides. The user can then select any of the games for that day, the program pulls up the current rolling averages of the team and outputs the likely winner as well as the models confidence in its prediction.
 
+results.txt - Here I am just storing the models results on this seasons games and comparing it against the results of the games.
+
+----This is a work in progress, I have been exploring different model types, right now im working on logistic regression
   
             
                 
