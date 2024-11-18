@@ -1,6 +1,6 @@
-# nbaPredictionModel
+# NBA-Prediction-Model
 
-File List:
+FILE LIST:
 
 1. requirements.txt (MUST INSTALL THE LIBRARIES HERE TO RUN LOCALLY)
 2. games_details.csv (training data)
@@ -19,7 +19,7 @@ TO RUN LOCALLY FOLLOW THESE STEPS:
   4. (Optional) Run feature_importance.py to see what data columns our model values when making its prediction.
   5. Run predict_games.py, enter a date in the format(2024-XX-XX) and select the matchup you want to predict.
 
-File summaries:
+FILE SUMMARIES:
 
 train_model.py - Cleans data from games_details.csv, uses rolling averages from past games when training and testing using a logistic regression model. It will output the result of the model and will save the model in nba_game_predictor.pkl to be used later by feature_importance.py and predict_games.py.
 
