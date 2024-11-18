@@ -3,7 +3,7 @@
 FILE LIST:
 
 1. requirements.txt (MUST INSTALL THE LIBRARIES HERE TO RUN LOCALLY)
-2. games_details.csv (training data)
+2. games_details.csv (training data, DOWNLOAD HERE: https://www.kaggle.com/datasets/nathanlauga/nba-games?select=games_details.csv)
 3. train_model.py (UPDATE FILE AND MODEL PATHS TO RUN LOCALLY)
 4. feature_importance.py (UPDATE MODEL PATH TO RUN LOCALLY)
 5. predict_games.py (UPDATE MODEL PATH TO RUN LOCALLY)
@@ -13,7 +13,7 @@ FILE LIST:
 
 TO RUN LOCALLY FOLLOW THESE STEPS:
 
-  1. Download games_details.csv from ()
+  1. Download games_details.csv from (https://www.kaggle.com/datasets/nathanlauga/nba-games?select=games_details.csv)
   2. Adjust necessary file and model paths in the files listed above. There will be a comment indicating where adjustments are needed.
   3. Run train_model.py
   4. (Optional) Run feature_importance.py to see what data columns our model values when making its prediction.
@@ -29,7 +29,7 @@ predict_games.py - This program leverages the nba_api to gather the nba games fo
 
 results.txt - Here I am just storing the models results on this seasons games and comparing it against the results of the games.
 
-----This is a work in progress, I have been exploring different model types, right now im working on logistic regression
+----This is a work in progress, I have been exploring different model types, right now im working on adding more datasets.
   
             
                 
